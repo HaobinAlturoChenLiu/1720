@@ -3,7 +3,7 @@ AFRAME.registerComponent('video-handler',{
     init: function(){
      let element = this.element;
      let video = document.querySelector("#rickroll");
-     vid.pause();
+     vid.play();
      //event listener for when someone clicks on the element with id "rickroll"
      element.addEventListener("click",function(){ 
          //play "rickroll"
@@ -51,7 +51,7 @@ function renderPlaces(places) {
         model.setAttribute('gltf-model', './assets/MyModel/scene.gltf');
         model.setAttribute('rotation', '0 180 0');
         model.setAttribute('animation-mixer', '');
-        model.setAttribute('scale', '0.5 0.5 0.5');
+        model.setAttribute('scale', '0.85 0.85 0.85');
 
         //wait for model to be loaded to load scene.gltf
         model.addEventListener('loaded', () => {
