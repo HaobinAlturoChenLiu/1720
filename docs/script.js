@@ -1,13 +1,13 @@
-//Trying to create a pause/play when click is detected, but it's not working properly?
-const videoEl = document.querySelector('#rickroll'); 
+//solving autoplay not working on phone, but seems to be broken still
+let videoEl = document.querySelector('#rickroll'); 
 videoEl.pause() 
 videoEl.currentTime = 0.1
 videoEl.play()
 
+//Trying to create a pause/play when click is detected, but it's not working properly?
 AFRAME.registerComponent('video-handler',{
     init: function(){
      let element = this.element;
-     let video = document.querySelector("#rickroll");
      videoEl.play();
      //event listener for when someone clicks on the element with id "rickroll"
      element.addEventListener("click",function(){ 
