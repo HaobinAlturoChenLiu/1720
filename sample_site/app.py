@@ -1,6 +1,12 @@
 from flask import Flask, render_template
+import pyautogui
 
 app = Flask(__name__)
+
+mousePosLog=[]
+mousePosLog.append(pyautogui.position())
+
+print(mousePosLog)
 
 @app.route("/")
 def index():
