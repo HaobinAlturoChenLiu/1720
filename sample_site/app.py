@@ -1,5 +1,5 @@
-from flask import Flask, render_template
-import re
+from flask import Flask, render_template, jsonify
+import test
 
 app = Flask(__name__)
 
@@ -15,4 +15,4 @@ def index():
         f.close()
 
     # Render HTML with count variable
-    return render_template('index.html')
+    return render_template("index.html", count=count)
