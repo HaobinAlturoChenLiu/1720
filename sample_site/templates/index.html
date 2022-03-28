@@ -31,9 +31,21 @@
     }
 </style>
 
+<script>
+function change() {
+  var x = document.getElementById("myText").value;
+  alert ("The name was changed to: " + x);
+  document.title = x
+}
+</script>
+
 <div>
+    Username: <input type="text" id="myText" name="usrnm" value="">
+
+<button onclick="change()">Change name</button>
     <h1>Welcome!</h1><br>
     <p>This site has been visited {{ count }} times.</p>
+    
 </div>
 
 </body>
