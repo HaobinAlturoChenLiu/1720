@@ -9,6 +9,14 @@
 
 <script>
     document.title = "I'm Here"
+    var btnName = function() {
+        $.get('/do_something',
+          function(x) {
+            $("#resBtnHere").html(x);
+          }
+        )
+      }
+      btnName()
 </script>
     
 <style>
@@ -40,9 +48,13 @@ function change() {
 </script>
 
 <div>
-    <form  method = "post">
-        <input type="button" id='script' name="submit" value="Run Script">
-       </form>
+
+    <button
+  type="button"
+  class="btn btn-primary"
+  onclick="btnName()"
+>Click here
+<p id="resBtnHere"></p>
 
     Username: <input type="text" id="myText" name="usrnm" value="">
 <button onclick="change()">Change name</button>
