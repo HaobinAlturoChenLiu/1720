@@ -18,6 +18,9 @@ def index():
 @app.route('/do_something')
 def do_something():
     
+    output = request.form.to_dict()
+    message = output["name"]
+    
     f = open("count.txt", "r")
     count = str(f.read())
     f.close()
@@ -25,7 +28,7 @@ def do_something():
     f = open("count.txt", "w")
     f.write(str(count+ "hello"))
     f.close()
-
+    
     return render_template("index.html", count=count)
 
 if __name__ == "__main__":
