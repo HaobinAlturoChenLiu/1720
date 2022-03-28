@@ -9,12 +9,9 @@
 
 <script>
     document.title = "I'm Here"
-
-    var delayInMilliseconds = 5000;
-
-setTimeout(function() {
-  window.location.replace("https://areyouthere.herokuapp.com/");
-}, delayInMilliseconds);
+    if (function getURL().includes("result")){
+        window.location.replace("https://areyouthere.herokuapp.com/");
+    }
 </script>
     
 <style>
