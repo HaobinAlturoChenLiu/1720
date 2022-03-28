@@ -15,21 +15,17 @@ def index():
 
     return render_template("index.html", count=count)
 
-@app.route('/do_something')
-def do_something():
-    
-    output = request.form.to_dict()
-    message = output["name"]
-    
-    f = open("count.txt", "r")
-    count = str(f.read())
-    f.close()
+@app.route('/home')
+def home():
+    return render_template("index.html")
 
-    f = open("count.txt", "w")
-    f.write(str(count+ "hello"))
-    f.close()
-    
-    return render_template("index.html", count=count)
+@app.route('/result',methods=['POST', 'GET'])
+def result():
+    output = request.form.to_dict()
+    print(output)
+    name = output["name"]
+
+    return render_template('index.html', name = name)
 
 if __name__ == "__main__":
     app.run()
