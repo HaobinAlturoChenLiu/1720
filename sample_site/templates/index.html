@@ -9,14 +9,6 @@
 
 <script>
     document.title = "I'm Here"
-    var btnName = function() {
-        $.get('/do_something',
-          function(x) {
-            $("#resBtnHere").html(x);
-          }
-        )
-      }
-      btnName()
 </script>
     
 <style>
@@ -49,12 +41,8 @@ function change() {
 
 <div>
 
-    <button
-  type="button"
-  class="btn btn-primary"
-  onclick="btnName()"
->Click here
-<p id="resBtnHere"></p>
+<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="exec('python app.py');">
+
 
     Username: <input type="text" id="myText" name="usrnm" value="">
 <button onclick="change()">Change name</button>
