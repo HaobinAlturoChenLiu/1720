@@ -66,4 +66,3 @@ function renderPlaces(places) {
         //the entity is appended to the scene element so that it can be rendered when needed
         scene.appendChild(model);
     });
-}
