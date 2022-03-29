@@ -10,7 +10,10 @@
 <script>
     document.title = "I'm Here"
     if (((window.location.href).includes("result"))){
-        window.location.replace("https://areyouthere.herokuapp.com/");
+        var delayInMilliseconds = 3000;
+setTimeout(function() {
+  window.location.replace("https://areyouthere.herokuapp.com/");
+}, delayInMilliseconds);
     }
     var delayInMilliseconds = 30000;
 
