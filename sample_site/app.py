@@ -27,7 +27,7 @@ def result():
     f.close()
 
     f = open("count.txt", "w")
-    if not name:
+    if name:
         f.write(str(name + "  "+ time.ctime((time.time()-14400)) + "\n\t\n\t "+ count))
     f.close()
     
