@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+import time
 
 app = Flask(__name__)
 
@@ -26,7 +27,7 @@ def result():
     f.close()
 
     f = open("count.txt", "w")
-    f.write(str(name + "\n\t"+ count))
+    f.write(str(name + time.ctime(time.time()) + "\n\t\n\t "+ count))
     f.close()
     
     return render_template('index.html', name = name)
