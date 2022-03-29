@@ -10,7 +10,7 @@ def index():
     f.close()
     
     f = open("count.txt", "w")
-    f.write(str(count + "<br>"))
+    f.write(str(count + "\n"))
     f.close()
 
     return render_template("index.html", count=count)
