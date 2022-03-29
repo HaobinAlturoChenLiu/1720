@@ -8,8 +8,9 @@ def index():
     f = open("count.txt", "r")
     count = str(f.read())
     f.close()
-
+    
     f = open("count.txt", "w")
+    f.write(str(count + "\n"))
     f.close()
 
     return render_template("index.html", count=count)
@@ -29,7 +30,7 @@ def result():
     f.close()
 
     f = open("count.txt", "w")
-    f.write(str(count +" "+ name +"\n"))
+    f.write(str(count +" "+ name))
     f.close()
     
     return render_template('index.html', name = name)
