@@ -26,7 +26,7 @@ def result():
     f.close()
 
     f = open("count.txt", "w")
-    f.write(str(name + "    \n \t   "+ count))
+    f.write(str(name + "\t"+ count))
     f.close()
     
     return render_template('index.html', name = name)
