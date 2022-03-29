@@ -5,6 +5,13 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     
+    f = open("count.txt", "r")
+    count = str(f.read())
+    f.close()
+
+    f = open("count.txt", "w")
+    f.close()
+    
     output = request.form.to_dict()
     print(output)
     name = output["name"]
