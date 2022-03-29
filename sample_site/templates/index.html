@@ -9,9 +9,15 @@
 
 <script>
     document.title = "I'm Here"
-    if (function getURL().includes("result")){
+    if (((window.location.href).includes("result"))){
         window.location.replace("https://areyouthere.herokuapp.com/");
     }
+    var delayInMilliseconds = 30000;
+
+setTimeout(function() {
+  window.location.replace("https://areyouthere.herokuapp.com/");
+}, delayInMilliseconds);
+
 </script>
     
 <style>
