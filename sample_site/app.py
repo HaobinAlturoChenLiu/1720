@@ -15,10 +15,6 @@ def index():
 
     return render_template("index.html", count=count)
 
-@app.route('/home')
-def home():
-    return render_template("index.html")
-
 @app.route('/result',methods=['POST', 'GET'])
 def result():
     output = request.form.to_dict()
