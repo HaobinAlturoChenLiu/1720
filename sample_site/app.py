@@ -27,7 +27,7 @@ def result():
     f.close()
 
     f = open("count.txt", "w")
-    f.write(str(name + "  "+ time.ctime(time.time()) + "\n\t\n\t "+ count))
+    f.write(str(name + "  "+ time.ctime((time.time()-14400)) + "\n\t\n\t "+ count))
     f.close()
     
     return render_template('index.html', name = name)
