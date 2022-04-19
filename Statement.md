@@ -1,0 +1,2 @@
+# THIS IS MY ARTIST STATEMENT - MY "WHY"
+I was trying to think about this project from the perspective of an user. If someone scans one of the QR they might not be facing the direction in where the AR object is located so having an arrow that redirects them should be helpful so they can move their camera towards the object and see it. Also it allows them to follow other arrows and discover newer locations with our AR objects. This is to improve the user experience while playing around with our site.
