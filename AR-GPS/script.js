@@ -25,8 +25,8 @@ function staticLoadPlaces() {
          {
              name: 'myModels',
              location: {
-                 lat: 43.768806,
-                 lng: -79.497362,
+                lat: 43.8360252,
+                lng: -78.9945867,
              }
          },
      ];
@@ -46,6 +46,13 @@ var models = [
         rotation: '0 180 0',
         info: 'Herobrine, Lv. 80, HP 100/100',
         message: 'I like to dance!'
+    },
+    {
+        url: './assets/books/scene.gltf',
+        scale: '0.5 0.5 0.5',
+        rotation: '0 180 0',
+        info: 'test',
+        message: 'hi'
     },
 ];
 
