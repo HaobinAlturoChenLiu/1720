@@ -61,6 +61,20 @@ var models = [
         info: '4',
         message: '4'
     },
+    {
+        url: './assets/head/scene.gltf',
+        scale: '0.2 0.2 0.2',
+        rotation: '0 180 0',
+        info: '5',
+        message: '5'
+    },
+    {
+        url: './assets/head/scene.glb',
+        scale: '0.2 0.2 0.2',
+        rotation: '0 180 0',
+        info: '6',
+        message: '6'
+    },
 ];
 
 var modelIndex = 0;
