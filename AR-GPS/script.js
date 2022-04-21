@@ -48,7 +48,14 @@ var models = [
         message: 'I like to dance!'
     },
     {
-        url: './assets/books/scene.gltf',
+        url: './assets/magic_book_of_eden/scene.gltf',
+        scale: '0.5 0.5 0.5',
+        rotation: '0 180 0',
+        info: 'test',
+        message: 'hi'
+    },
+    {
+        url: './assets/snake_statue/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: 'test',
