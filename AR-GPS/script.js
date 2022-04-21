@@ -37,29 +37,29 @@ var models = [
         url: './assets/magnemite/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
-        info: '',
-        message: 'I have some super skills!'
+        info: '1',
+        message: '1'
     },
     {
         url: './assets/herobrine/scene.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: '',
-        message: 'I like to dance!'
+        info: '2',
+        message: '2'
     },
     {
         url: './assets/magic_book_of_eden/scene.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: 'test',
-        message: 'hi'
+        info: '3',
+        message: '3'
     },
     {
         url: './assets/snake_statue/scene.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: 'test',
-        message: 'hi'
+        info: '4',
+        message: '4'
     },
 ];
 
