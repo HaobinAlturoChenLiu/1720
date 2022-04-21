@@ -63,14 +63,14 @@ var models = [
     },
     {
         url: './assets/head/scene.gltf',
-        scale: '1.5 1.5 1.5',
+        scale: '7.0 7.0 7.0',
         rotation: '0 180 0',
         info: '5',
         message: '5'
     },
     {
         url: './assets/head/scene.glb',
-        scale: '1.5 1.5 1.5',
+        scale: '7.0 7.0 7.0',
         rotation: '0 180 0',
         info: '6',
         message: '6'
