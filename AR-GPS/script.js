@@ -42,7 +42,7 @@ var models = [
     },
     {
         url: './assets/herobrine/scene.gltf',
-        scale: '0.2 0.2 0.2',
+        scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: '2',
         message: '2'
@@ -56,21 +56,21 @@ var models = [
     },
     {
         url: './assets/snake_statue/scene.gltf',
-        scale: '0.2 0.2 0.2',
+        scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: '4',
         message: '4'
     },
     {
         url: './assets/head/scene.gltf',
-        scale: '0.2 0.2 0.2',
+        scale: '1.5 1.5 1.5',
         rotation: '0 180 0',
         info: '5',
         message: '5'
     },
     {
         url: './assets/head/scene.glb',
-        scale: '0.2 0.2 0.2',
+        scale: '1.5 1.5 1.5',
         rotation: '0 180 0',
         info: '6',
         message: '6'
