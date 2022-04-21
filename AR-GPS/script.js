@@ -75,6 +75,20 @@ var models = [
         info: '6',
         message: '6'
     },
+    {
+        url: './assets/food/scene.gltf',
+        scale: '0.5 0.5 0.5',
+        rotation: '0 180 0',
+        info: '7',
+        message: '7'
+    },
+    {
+        url: './assets/tennis/scene.gltf',
+        scale: '0.5 0.5 0.5',
+        rotation: '0 180 0',
+        info: '8',
+        message: '8'
+    },
 ];
 
 var modelIndex = 0;
