@@ -37,14 +37,14 @@ var models = [
         url: './assets/magnemite/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
-        info: 'Magnemite, Lv. 5, HP 10/10',
+        info: '',
         message: 'I have some super skills!'
     },
     {
         url: './assets/herobrine/scene.gltf',
-        scale: '0.2 0.2 0.2',
+        scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
-        info: 'Herobrine, Lv. 80, HP 100/100',
+        info: '',
         message: 'I like to dance!'
     },
     {
