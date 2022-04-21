@@ -20,9 +20,6 @@
 <a-assets>
     <img id="arrow" src="https://cdn.pixabay.com/photo/2013/07/12/13/43/arrow-147172_1280.png">
 	<a-asset-item id="book" src="book.gltf"></a-asset-item>
-	<a-asset-item id="model" src="model.obj"></a-asset-item>
-	<a-asset-item id="model-mtl" src="model.mtl"></a-asset-item>
-	<a-asset-item id="model-png" src="model.png"></a-asset-item>
 
 </a-assets>
 
@@ -30,8 +27,7 @@
 
 <a-image src="#arrow" look-at="[gps-camera]" width="32" height="24" gps-entity-place="latitude: 43.77014406026; longitude:  -79.50235732517872;"></a-image>
 <a-image src="#arrow" look-at="[gps-camera]" width="32" height="24" ></a-image>
-<a-entity src="#book" look-at="[gps-camera]" gltf-model="#tree" ></a-entity>
-<a-obj-model src="model.obj" mtl="model.mtl" png="model.png" gps-entity-place="latitude: 43.768806; longitude:  -79.497362;"></a-obj-model>
+<a-entity look-at="[gps-camera]" gltf-model="#book" gps-entity-place="latitude: 43.768806; longitude:  -79.497362;" ></a-entity>
 <a-image src="#arrow" look-at="[gps-camera]" width="32" height="24" gps-entity-place="latitude: 43.773331; longitude:  -79.502314;"></a-image>
 	</a-scene>
 </body>
