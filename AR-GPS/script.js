@@ -84,7 +84,7 @@ var models = [
     },
     {
         url: './assets/tennis/scene.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
         info: '8',
         message: '8'
